@@ -1,4 +1,5 @@
 //eight optional sockets from a common center
+//subtract all other socket_ID and opposite half of socket_OD
 //
 //L length from center
 //OD outside diameter of socket wall
