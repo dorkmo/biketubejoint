@@ -32,4 +32,10 @@ socket7_Y = 0;
 socket8_X = 0;
 socket8_Y = 0;
 
+sphere(r = 10)
+  difference
+    cylinder
+  union
+    cylinder
+
 cylinder(h = L, r=OD/2);
