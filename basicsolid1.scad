@@ -37,7 +37,7 @@ socket8_Y = 0;
 sphere(r = sphere_D/2)
   union() {
     rotate(a=[socket1_X,socket1_Y,0])
-      cylinder(h = stub_L, r=OD/2);
+      cylinder(h = stub_L+base_L+sphere_D/2, r=OD/2);
       cylinder(h = base_L+sphere_D/2, r=ID/2);
   }
 cylinder(h = L, r=OD/2);
