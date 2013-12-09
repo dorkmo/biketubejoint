@@ -33,9 +33,9 @@ socket8_X = 0;
 socket8_Y = 0;
 
 sphere(r = 10)
-  difference
-    cylinder
-  union
-    cylinder
-
+  union() {
+    rotate(a=[socket1_X,socket1_Y,0])
+      cylinder(h = L, r=OD/2);
+      cylinder(h = L, r=OD/2);
+  }
 cylinder(h = L, r=OD/2);
