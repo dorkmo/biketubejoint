@@ -37,28 +37,28 @@ socket8_Y = x;
 sphere(r = sphere_D/2)
   union() {
     rotate(a=[socket1_X,socket1_Y,0])
-      cylinder(h = stub_L+base_L+sphere_D/2, r=socket_OD/2);
-      cylinder(h = base_L+sphere_D/2, r=socket_ID/2);
+      cylinder(h = stub_L+base_L+sphere_D/2, r=tube_OD/2);
+      cylinder(h = base_L+sphere_D/2, r=tube_ID/2);
     rotate(a=[socket2_X,socket2_Y,0])
-      cylinder(h = stub_L+base_L+sphere_D/2, r=socket_OD/2);
-      cylinder(h = base_L+sphere_D/2, r=socket_ID/2);
+      cylinder(h = stub_L+base_L+sphere_D/2, r=tube_OD/2);
+      cylinder(h = base_L+sphere_D/2, r=tube_ID/2);
     rotate(a=[socket3_X,socket3_Y,0])
-      cylinder(h = stub_L+base_L+sphere_D/2, r=socket_OD/2);
-      cylinder(h = base_L+sphere_D/2, r=socket_ID/2);
+      cylinder(h = stub_L+base_L+sphere_D/2, r=tube_OD/2);
+      cylinder(h = base_L+sphere_D/2, r=tube_ID/2);
     rotate(a=[socket4_X,socket4_Y,0])
-      cylinder(h = stub_L+base_L+sphere_D/2, r=socket_OD/2);
-      cylinder(h = base_L+sphere_D/2, r=socket_ID/2);
+      cylinder(h = stub_L+base_L+sphere_D/2, r=tube_OD/2);
+      cylinder(h = base_L+sphere_D/2, r=tube_ID/2);
     rotate(a=[socket5_X,socket5_Y,0])
-      cylinder(h = stub_L+base_L+sphere_D/2, r=socket_OD/2);
-      cylinder(h = base_L+sphere_D/2, r=socket_ID/2);
+      cylinder(h = stub_L+base_L+sphere_D/2, r=tube_OD/2);
+      cylinder(h = base_L+sphere_D/2, r=tube_ID/2);
     rotate(a=[socket6_X,socket6_Y,0])
-      cylinder(h = stub_L+base_L+sphere_D/2, r=socket_OD/2);
-      cylinder(h = base_L+sphere_D/2, r=socket_ID/2);
+      cylinder(h = stub_L+base_L+sphere_D/2, r=tube_OD/2);
+      cylinder(h = base_L+sphere_D/2, r=tube_ID/2);
     rotate(a=[socket7_X,socket7_Y,0])
-      cylinder(h = stub_L+base_L+sphere_D/2, r=socket_OD/2);
-      cylinder(h = base_L+sphere_D/2, r=socket_ID/2);
+      cylinder(h = stub_L+base_L+sphere_D/2, r=tube_OD/2);
+      cylinder(h = base_L+sphere_D/2, r=tube_ID/2);
     rotate(a=[socket8_X,socket8_Y,0])
-      cylinder(h = stub_L+base_L+sphere_D/2, r=socket_OD/2);
-      cylinder(h = base_L+sphere_D/2, r=socket_ID/2);
+      cylinder(h = stub_L+base_L+sphere_D/2, r=tube_OD/2);
+      cylinder(h = base_L+sphere_D/2, r=tube_ID/2);
   }
 
