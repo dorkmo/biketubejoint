@@ -6,38 +6,59 @@
 
 sphere_D = 10;
 stub_L = 20;
-base_L = 2
+base_L = 2;
 tube_OD = 5;
 tube_ID = 5;
 
-socket1_X = 0;
-socket1_Y = 0;
+socket1_X = x;
+socket1_Y = x;
 
-socket2_X = 0;
-socket2_Y = 0;
+socket2_X = x;
+socket2_Y = x;
 
-socket3_X = 0;
-socket3_Y = 0;
+socket3_X = x;
+socket3_Y = x;
 
-socket4_X = 0;
-socket4_Y = 0;
+socket4_X = x;
+socket4_Y = x;
 
-socket5_X = 0;
-socket5_Y = 0;
+socket5_X = x;
+socket5_Y = x;
 
-socket6_X = 0;
-socket6_Y = 0;
+socket6_X = x;
+socket6_Y = x;
 
-socket7_X = 0;
-socket7_Y = 0;
+socket7_X = x;
+socket7_Y = x;
 
-socket8_X = 0;
-socket8_Y = 0;
+socket8_X = x;
+socket8_Y = x;
 
 sphere(r = sphere_D/2)
   union() {
     rotate(a=[socket1_X,socket1_Y,0])
-      cylinder(h = stub_L+base_L+sphere_D/2, r=OD/2);
-      cylinder(h = base_L+sphere_D/2, r=ID/2);
+      cylinder(h = stub_L+base_L+sphere_D/2, r=socket_OD/2);
+      cylinder(h = base_L+sphere_D/2, r=socket_ID/2);
+    rotate(a=[socket2_X,socket2_Y,0])
+      cylinder(h = stub_L+base_L+sphere_D/2, r=socket_OD/2);
+      cylinder(h = base_L+sphere_D/2, r=socket_ID/2);
+    rotate(a=[socket3_X,socket3_Y,0])
+      cylinder(h = stub_L+base_L+sphere_D/2, r=socket_OD/2);
+      cylinder(h = base_L+sphere_D/2, r=socket_ID/2);
+    rotate(a=[socket4_X,socket4_Y,0])
+      cylinder(h = stub_L+base_L+sphere_D/2, r=socket_OD/2);
+      cylinder(h = base_L+sphere_D/2, r=socket_ID/2);
+    rotate(a=[socket5_X,socket5_Y,0])
+      cylinder(h = stub_L+base_L+sphere_D/2, r=socket_OD/2);
+      cylinder(h = base_L+sphere_D/2, r=socket_ID/2);
+    rotate(a=[socket6_X,socket6_Y,0])
+      cylinder(h = stub_L+base_L+sphere_D/2, r=socket_OD/2);
+      cylinder(h = base_L+sphere_D/2, r=socket_ID/2);
+    rotate(a=[socket7_X,socket7_Y,0])
+      cylinder(h = stub_L+base_L+sphere_D/2, r=socket_OD/2);
+      cylinder(h = base_L+sphere_D/2, r=socket_ID/2);
+    rotate(a=[socket8_X,socket8_Y,0])
+      cylinder(h = stub_L+base_L+sphere_D/2, r=socket_OD/2);
+      cylinder(h = base_L+sphere_D/2, r=socket_ID/2);
   }
-cylinder(h = L, r=OD/2);
+
